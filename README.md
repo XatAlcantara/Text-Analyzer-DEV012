@@ -16,7 +16,7 @@ Analizador de texto que recopila datos como palabras, caracteres, cantidad de n�
 
 ## Características de la aplicación
 
-
+! [demo text analyzer](Funcionalidad.gif)
 ## Tecnologías utilizadas
 * HTML
 * CSS
