@@ -1,6 +1,8 @@
 # Text-Analyzer-DEV012
 Analizador de texto que recopila datos como palabras, caracteres, cantidad de números, etc. 
 
+![Vista Text Analyzer](https://github.com/XatAlcantara/Text-Analyzer-DEV012/blob/130825bc1beb278d86d3b421d888eefb23d33a6e/Disen%CC%83o.png)
+
 ## Indice
 
 * [Título e imagen de portada](#Título-e-imagen-de-portada)
