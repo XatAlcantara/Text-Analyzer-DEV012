@@ -14,18 +14,16 @@
           <h1>Analizador de Texto</h1>
         </nav>
         <img src="Imagen escribiendo.png" width="300">
-    </header>
+      </header>
  
-<main>
-  <footer>
-    <p>
-      A continuación podras ingresar un texto y se te podra dar el recuento de las siguientes metricas en base al texto que nos proporciones. 
-    </p>
-  </footer>
-    </div>
+      <footer>
+      <p>
+        A continuación podras ingresar un texto y se te podra dar el recuento de las siguientes metricas en base al texto que nos proporciones:
+      </p>
+      </footer>
     
       <div>
-         <ol class="lista">
+         <ol>
           <li>Palabras</li>
           <li>Caracteres (Espacios/Signos de puntuación incluidos)</li>
           <li>Caracteres Exclusivos (Espacios/Signos de puntuación excluidos)</li>
@@ -33,38 +31,40 @@
           <li>Suma de los Números</li>
           <li>Longitud media de las palabras</li>
         </ol>
-    </div>
-    <br>
-    <footer>
-    <p>¡Adelante pruebalo!</p>
-    <footer>
+      </div>
+      
+      <br>
+      
+      <footer>
+        <p>¡Adelante pruebalo!</p>
+      </footer>
   
-<section>
-  <ul>
-    <li data-testid= "word-count" class="contadores" > Palabras: 0 </li>
-    <li data-testid= "character-count" class="contadores" > Caracteres: 0 </li>
-    <li data-testid= "character-no-spaces-count" class="contadores" > Caracteres Excl: 0 </li>
-    <li data-testid= "number-count" class="contadores" > Numeros: 0 </li>
-    <li data-testid= "number-sum" class="contadores"> Suma: 0 </li>
-    <li data-testid= "word-length-average" class="contadores" > Long. Media: 0 </li>
-  </ul>
-</section>
+    <section>
+      <ul>
+        <li data-testid= "word-count" class="contadores" > Palabras: 0 </li>
+        <li data-testid= "character-count" class="contadores" > Caracteres: 0 </li>
+        <li data-testid= "character-no-spaces-count" class="contadores" > Caracteres Excl: 0 </li>
+        <li data-testid= "number-count" class="contadores" > Numeros: 0 </li>
+        <li data-testid= "number-sum" class="contadores"> Suma: 0 </li>
+        <li data-testid= "word-length-average" class="contadores" > Long. Media: 0 </li>
+      </ul>
+    </section>
 
-<main>
-  <textarea name="user-input"  value="user-input" cols="80" rows="8"  placeholder="Ingrese texto"></textarea>
-</main>
+    <main>
+      <textarea name="user-input"  value="user-input" cols="50" rows="6"  placeholder="Ingrese texto"></textarea>
+    </main>
 
-  <br>
+    <section>
+      <button id="reset-button">Borrar</button>
+    </section>
 
-<section>
-  <button id="reset-button">Reset</input>
-</section>
+    <footer>
+      <p>Por Xatzibe Alejandra Alcantara Rodriguez. 04/10/2023</p>
+    </footer>
 
-<footer>
-  <p>Por Xatzibe Alejandra Alcantara Rodriguez. 04/10/2023</p>
-</footer>
 
-</main>
   <script src="index.js" type="module"></script>
+
 </body>
+
 </html>

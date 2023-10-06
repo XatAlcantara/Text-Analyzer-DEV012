@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 75%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     height: auto;
@@ -48,12 +48,9 @@ img{
     text-align: center;
   }
 
-  .lista{
+  ol{
     font-size: 17px;
     text-align: left;
-  }
-
-  .lista{
     padding: 2px;
   }
 
@@ -66,10 +63,7 @@ img{
     color: white;
     margin-right: 2px; 
     display: inline-block; 
-    border-radius: 20px; 
-  }
-
-  .contadores {
+    border-radius: 20px;
     text-align: center;
     font-size: 8 px;
     padding: 5px;
@@ -79,8 +73,8 @@ img{
     border:10px solid #C2C0C0;
     border-radius: 10px;
     padding: 10px;
-    font-size: 13px;
-    width: 850px;
+    font-size: 17px;
+    width: 730px;
     height: 150px;
   }
 

@@ -13,8 +13,8 @@ const analyzer = {
 
   getCharacterCount: (cuadrodetextoinput) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-  const numberchars = cuadrodetextoinput.length; 
-  return numberchars;
+    const numberchars = cuadrodetextoinput.length;  
+    return numberchars;  
   },
 
   getCharacterCountExcludingSpaces: (cuadrodetextoinput) => {
@@ -35,15 +35,27 @@ const analyzer = {
   },
 
   getNumberCount: (cuadrodetextoinput) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-    const numbers = cuadrodetextoinput.split(/\s+/).filter(word => /^\d+(\.\d+)?$/.test(word));
-    return numbers.length;
+    //TODO: esta función debe retornar cuántos números se encuentran en el parámetro text de tipo string.
+    const numberMatches = cuadrodetextoinput.match(/\b\d+(\.\d+)?\b/g);
+    if (!numberMatches) return 0;
+
+    let count = 0;
+    for (const match of numberMatches) {
+      const sanitizedMatch = match.replace(/[^0-9.]/g, ''); // Remover caracteres no numéricos ni puntos.
+      if (!isNaN(parseFloat(sanitizedMatch))) {
+        count++;
+      }
+    }
+    return count;
   },
-  
+
   getNumberSum: (cuadrodetextoinput) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    const numbers = cuadrodetextoinput.match(/\d+(\.\d+)?/g) || [];
-    const sum = numbers.reduce((acc, num) => acc + parseFloat(num), 0);
+    const numbers = cuadrodetextoinput.match(/\b\d+(\.\d+)?\b/g) || [];
+    const sum = numbers.reduce((acc, num) => {
+      const sanitizedNum = parseFloat(num.replace(/[^\d.]/g, ''));
+      return isNaN(sanitizedNum) ? acc : acc + sanitizedNum;
+    }, 0);
     return Math.round(sum * 100) / 100;
   },
 };
