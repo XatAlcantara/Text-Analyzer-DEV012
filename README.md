@@ -1,13 +1,13 @@
 # Text-Analyzer-DEV012
 Analizador de texto que recopila datos como palabras, caracteres, cantidad de números, etc. 
 
-##Indice
+## Indice
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
-*[Descripción del proyecto](#descripción-del-proyecto)
-[Características de la aplicación](#características-de-la-aplicación)
-[Tecnologías utilizadas](#Tecnologías-utilizadas)
-[Desarrolladora del proyecto](#Desarrolladora-del-proyecto)
+* [Título e imagen de portada](#Título-e-imagen-de-portada)
+* [Descripción del proyecto](#descripción-del-proyecto)
+* [Características de la aplicación](#características-de-la-aplicación)
+* [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Desarrolladora del proyecto](#Desarrolladora-del-proyecto)
 
 ## Descripción del proyecto
 
