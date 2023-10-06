@@ -16,7 +16,8 @@ Analizador de texto que recopila datos como palabras, caracteres, cantidad de n�
 
 ## Características de la aplicación
 
-! [demo text analyzer](Funcionalidad.gif)
+! [demo text analyzer](https://github.com/XatAlcantara/Text-Analyzer-DEV012/blob/370e64e3420897d2ef3b32802f13220c3991a78a/Funcionalidad.gif "Demo Text Analyzer")
+
 ## Tecnologías utilizadas
 * HTML
 * CSS
