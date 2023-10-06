@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 10px;
+    background-color: #F4E7E7;
+}
+
+body{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:25px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    margin-right: 20px;
+    border: 2px solid #E48080;
+    width: 400px;
+    background-color: #E48080;
+    padding: 15px;
+    text-align: center;
+    gap: 4px;
+    font-size: 33px;
+    color: white;
+    }
+
+img{
+  max-width: 90%;  
+  height: 150px;
+}
+    
+
+  footer {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .lista{
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .lista{
+    padding: 2px;
+  }
+
+  .contadores {
+    width: auto;
+    height: auto;
+    background-color: #D04E4E;
+    border: 2px solid #D04E4E;
+    line-height: auto;
+    color: white;
+    margin-right: 2px; 
+    display: inline-block; 
+    border-radius: 20px; 
+  }
+
+  .contadores {
+    text-align: center;
+    font-size: 8 px;
+    padding: 5px;
+  }
+
+  textarea[name="user-input"]{
+    border:10px solid #C2C0C0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 850px;
+    height: 150px;
+  }
+
+  #reset-button {
+    font-size: 23px;
+    width: 115px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #D2B2EC;
+    border-radius: 20px;
+    background-color: #D2B2EC;
+  }
+  
+  #reset-button:hover {
+    background-color: #8d57b1;
+    color: white;
+    font-weight: 700;
+    }
