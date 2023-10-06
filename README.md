@@ -16,4 +16,10 @@ Analizador de texto que recopila datos como palabras, caracteres, cantidad de n�
 
 ## Características de la aplicación
 
-* 
+
+## Tecnologías utilizadas
+* HTML
+* CSS
+* JS
+
+## Desarroladora del proyecto 
