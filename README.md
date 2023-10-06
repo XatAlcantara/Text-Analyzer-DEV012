@@ -15,7 +15,7 @@ Analizador de texto que recopila datos como palabras, caracteres, cantidad de n�
 
 Se realizaron diferentes bocetos a mano, diseñando al final un prototipo en la aplicación de Figma, de la cual se obtuvieron los colores y las referencias para poder llevar a acabo el correcto desarrollo de y diseño con CSS, tomando en consideracion los contrates y un diseño minimalista amable con el usuario explicandole las funcionalidades del programa.
 
-![Prototipo figma](https://github.com/XatAlcantara/Text-Analyzer-DEV012/blob/02685e87e3bad85df50c66ac24c157409cefeea9/Disen%CC%83o.png)
+![Prototipo figma](https://github.com/XatAlcantara/Text-Analyzer-DEV012/blob/9e71baa4ababcb1068f39925cb6b39ced370aa8e/Captura%20de%20pantalla%202023-10-06%20a%20la(s)%200.55.07.png)
 
 ## Descripción del proyecto
 Proyecto realizado para: Bootcamp Laboratoria - Desarrollo Web.
